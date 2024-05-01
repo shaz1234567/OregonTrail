@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="media\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\OregonTrailDotNet.csproj" />
+    <None Include="src\.git\config" />
+    <None Include="src\.git\HEAD" />
+    <None Include="src\.git\description" />
+    <None Include="src\.git\index" />
+    <None Include="src\.git\COMMIT_EDITMSG" />
+    <None Include="src\.git\FETCH_HEAD" />
+    <None Include="src\.git\info\exclude" />
+    <None Include="src\.git\logs\HEAD" />
+    <None Include="src\.git\logs\refs\heads\main" />
+    <None Include="src\.git\logs\refs\remotes\origin\main" />
+    <None Include="src\.git\hooks\commit-msg.sample" />
+    <None Include="src\.git\hooks\pre-rebase.sample" />
+    <None Include="src\.git\hooks\pre-commit.sample" />
+    <None Include="src\.git\hooks\applypatch-msg.sample" />
+    <None Include="src\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="src\.git\hooks\pre-receive.sample" />
+    <None Include="src\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="src\.git\hooks\post-update.sample" />
+    <None Include="src\.git\hooks\pre-merge-commit.sample" />
+    <None Include="src\.git\hooks\pre-applypatch.sample" />
+    <None Include="src\.git\hooks\pre-push.sample" />
+    <None Include="src\.git\hooks\update.sample" />
+    <None Include="src\.git\hooks\push-to-checkout.sample" />
+    <None Include="src\.git\objects\69\4ec86d7e146af63ea251d2b21afcf9969cfa4f" />
+    <None Include="src\.git\objects\00\2608ecf9e2a5f2b9e1fc4aa1ca9d8d32957981" />
+    <None Include="src\.git\objects\dd\1a30b6f01d8a3d3323ac7c1fc83d4ffa2d7e34" />
+    <None Include="src\.git\refs\heads\main" />
+    <None Include="src\.git\refs\remotes\origin\main" />
+    <None Include="OregonTrailDotNet.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="media\" />
+  </ItemGroup>
+</Project>
